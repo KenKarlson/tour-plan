@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.header {
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
