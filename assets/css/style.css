@@ -435,4 +435,20 @@ template {
   color: #333333;
   margin-left: 18px;
 }
+
+.nav {
+  padding: 31px 164px 31px 164px;
+  background-color: #0A223D;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
