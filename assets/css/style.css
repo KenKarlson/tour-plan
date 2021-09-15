@@ -437,18 +437,35 @@ template {
 }
 
 .nav {
-  padding: 31px 164px 31px 164px;
+  width: 100%;
+  padding: 31px 0 31px 0;
   background-color: #0A223D;
 }
 
 .header-menu {
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0;
-  margin: 0;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.header-menu__item {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.header-menu__item a {
   text-decoration: none;
+}
+
+.header-menu__link {
+  color: #fff;
+}
+
+.header-menu__link:hover {
+  color: #EC1F46;
 }
 /*# sourceMappingURL=style.css.map */

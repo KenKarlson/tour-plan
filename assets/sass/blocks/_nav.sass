@@ -1,12 +1,20 @@
 .nav
-  padding: 31px 164px 31px 164px
+  width: 100%
+  padding: 31px 0 31px 0
   background-color: $second
 .header-menu
-  display: flex
-  padding: 0
   margin: 0
+  padding: 0
+  display: flex
   justify-content: space-around
-  text-decoration: none
+
   &__item
+    text-transform: uppercase
+    list-style-type: none
+    a
+      text-decoration: none
 
   &__link
+    color: $test-color-text
+    &:hover
+      color: $primary
