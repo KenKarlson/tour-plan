@@ -507,7 +507,7 @@ template {
     line-height: 15px;
   }
   .search__input {
-    max-width: 340px;
+    width: 340px;
   }
 }
 
@@ -522,6 +522,8 @@ template {
   .menu-button {
     width: 16px;
     height: 11px;
+    padding: 0;
+    margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
