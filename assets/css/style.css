@@ -588,6 +588,10 @@ template {
   font-weight: 700;
 }
 
+.rating__number {
+  font-size: 12px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
