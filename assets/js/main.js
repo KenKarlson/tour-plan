@@ -7,5 +7,12 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.slider-button--prev',
   },
   effect: "fade",
-  resizeObserver: true,
+  keyboard: {
+    enable: true,
+    onlyInViewport: true,
+  },
+  mousewheel: {
+    sensitivity: 1,
+    eventTarget: ".swiper",
+  }
 });
