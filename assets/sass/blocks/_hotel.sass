@@ -26,15 +26,12 @@
   &-grid
     display: flex
     justify-content: space-between
-
-    //align-items: flex-start
   &-right
     display: flex
     align-items: center
     flex-direction: column
     justify-content: space-between
     width: auto
-  //fix: flex-basis: 100% to 'auto'
 .stars
   flex-basis: 100%
 .offer
@@ -64,9 +61,10 @@
 
 .swiper
   width: 100%
-  height: 450px
+  height: 100%
   position: relative
   border-radius: 8px
+
   &::after
     content: ''
     position: absolute
@@ -77,6 +75,7 @@
     z-index: 10
 .slider
   width: 728px
+  height: 450px
   &-button
     position: absolute
     top: 50%
@@ -101,8 +100,8 @@
   background-color: $dark-color
   color: $light
   border-radius: 8px
-  width: 350px
-  min-height: 210px
+  width: 347px
+  min-height: 213px
   padding: 27px
   &__info
     display: flex
@@ -164,7 +163,7 @@
   &__num
     margin-left: 9px
   &__button
-    padding: 13px 82px
+    padding: 13px 75px
     width: 100%
     min-height: 45px
     font-family: Nunito , sans-serif
@@ -179,5 +178,9 @@
 
 .map
   width: 347px
-  height: 213px
-  background-color: $dark-color
+  min-height: 213px
+  border-radius: 10px
+  overflow: hidden
+#map
+  width: 100%
+  height: 100%
