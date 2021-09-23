@@ -807,7 +807,7 @@ template {
 
 .newsletter {
   position: relative;
-  padding: 98px 0 87px;
+  padding: 98px 0 87px 0;
   background-image: url(../../assets/img/newsletter-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1064,11 +1064,17 @@ template {
   .hotel__slider {
     margin-bottom: 20px;
   }
+  .newsletter {
+    padding: 76px 0 83px 0;
+  }
   .newsletter-wrapper {
     padding-left: 34px;
     padding-right: 34px;
   }
-  .newsletter .subscribe {
+  .newsletter__title {
+    margin-bottom: 37px;
+  }
+  .subscribe {
     width: 100%;
   }
 }
