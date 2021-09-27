@@ -888,7 +888,7 @@ template {
 
 .subscribe__button {
   position: absolute;
-  max-width: 65px;
+  max-width: 70px;
   top: 0;
   right: 0;
   height: 100%;
@@ -896,6 +896,10 @@ template {
   background-color: #EC1F46;
   color: #fff;
   overflow: hidden;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .reviews {
