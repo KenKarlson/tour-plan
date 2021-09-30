@@ -18,7 +18,7 @@
   &__social
     &-links
       display: flex
-      align-items: center
+      //align-items: center
       min-width: 83px
       justify-content: space-between
     &-network
@@ -80,6 +80,7 @@
     flex-basis: 48%
     margin-bottom: 15px
   &__message
+    height: 123px
     padding: 18px 23px
     bacground-color: #fff
     border-radius: 4px
@@ -104,4 +105,29 @@
     font-weight: 700
     font-size: 12px
     line-height: 15px
-    color: $footer-text-color
+    color: $footer-infotext-color
+  &-copyright
+    grid-row: 6
+    grid-column: 2 / 5
+    display: flex
+    justify-content: space-between
+    margin: 0
+    padding: 0
+    &--co
+      align-items: center
+  &-menu
+    margin: 0
+    padding: 0
+    &__item
+      display: inline
+      list-style-type: none
+      text-decoration: none
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+      color: #fff
+    &__link
+      margin-right: 6px
+      text-decoration: none
+      color: inherit
