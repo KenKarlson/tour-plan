@@ -587,6 +587,7 @@ template {
 .hotel-slider {
   width: 728px;
   height: 450px;
+  margin-left: 0;
 }
 
 .hotel-slider__item {
@@ -674,6 +675,10 @@ template {
 
 .rating__number {
   font-size: 12px;
+}
+
+.swiper {
+  margin-left: 0;
 }
 
 .booking {
