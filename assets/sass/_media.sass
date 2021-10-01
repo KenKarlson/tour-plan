@@ -100,12 +100,51 @@
       grid-column: 1 / 7
     //768
 @media (max-width: 768px)
+  body
+    padding-top: 78px
   .container
     max-width: 576px
     width: 92%
   .navbar
-    &__search, &-menu, &__user
+    &--mobile
+      &--fixed
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        z-index: 99
+    &__search, &__user
+      &--mobile
+        &--hidden
+          display: none
+        &--visible
+          display: flex
+    &__user
+      flex-direction: column
+      justify-content: center
+    &-bottom
       display: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 78px
+      padding-top: 30px
+      &--visible
+        display: block
+    &-menu
+      display: flex
+      flex-direction: column
+      &__item
+        margin-bottom: 20px
+        &--mobile
+          &--visible
+            display: block
+      &__link
+        font-style: normal
+        font-weight: 700
+        font-size: 12px
+        line-height: 15px
   .menu
     &-button
       width: 16px
@@ -122,6 +161,12 @@
         width: 16px
         height: 1px
         background-color: $text-color
+  .user
+    &__name
+      &--light
+        color: $light
+        margin-left: 0
+        margin-top: 10px
   .stars
     flex-basis: auto
   .hotel
@@ -183,7 +228,10 @@
   .footer
     &__input
       flex-basis: 100%
-  ///import css-variables from max-width 576
+  .search
+    &__input
+      width: 245px
+    ///import css-variables from max-width 576
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -272,10 +320,13 @@
       &__item
 
 @media (max-width: 320px)
+
   .navbar
     &-top
       padding-top: 22px
       padding-bottom: 22px
+    &-bottom
+      top: 70px
   .breadcrumb
     padding: 18px 0
     &__item

@@ -8,10 +8,6 @@
     padding-bottom: 40px
     &__menu-button
       display: none
-  &__search
-    margin-right: auto
-    margin-left: 108px
-
   &-bottom
     background-color: $dark-color
   &-menu
@@ -31,7 +27,6 @@
       font-weight: 700
 .logo
   width: 177px
-
 .search
   display: flex
   position: relative
@@ -72,3 +67,12 @@
     font-size: 14px
     line-height: 18px
     color: $text-color
+  &__search
+    margin-right: auto
+    margin-left: 108px
+.navbar
+  &-menu
+    &__item
+      &--mobile
+        &--visible
+          display: none
