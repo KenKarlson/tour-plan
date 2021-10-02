@@ -480,10 +480,11 @@
         <!-- /.footer__contact-details -->
         <div class="footer__contact-form">
           <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
-          <form action="#" class="footer__form">
-            <input type="text" class="input footer__input" placeholder="Your Full Name*">
-            <input type="text" class="input footer__input" placeholder="Phone Number*">
-            <textarea cols="30" rows="10" class="footer__message" placeholder="Message"></textarea>
+
+          <form action="send.php" method="POST" class="footer__form">
+            <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
+            <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
+            <textarea  class="footer__message" placeholder="Message" name="message"></textarea>
             <button class="button footer__button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>
