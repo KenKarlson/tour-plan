@@ -1952,6 +1952,10 @@ template {
   .footer-menu {
     margin-bottom: 10px;
   }
+  .modal__dialog {
+    max-width: 441px;
+    padding: 15px 10px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1984,6 +1988,10 @@ template {
     font-size: 18px;
     line-height: 23px;
     margin: 40px 38px 42px 38px;
+  }
+  .modal__dialog {
+    max-width: 295px;
+    padding: 10px 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
