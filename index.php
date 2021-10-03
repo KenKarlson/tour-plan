@@ -19,7 +19,7 @@
     <div class="container">
       <div class="navbar-top">
 
-        <a href="#" class="logo">
+        <a href="/" class="logo">
           <img src="assets/img/logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
 
@@ -192,7 +192,7 @@
               </a>
             </div>
             <!-- /.booking__call-center -->
-            <button class="button booking__button">View Other Options</button>
+            <button data-togle="modal" class="button booking__button">View Other Options</button>
           </div>
           <!-- /.booking -->
 
@@ -484,7 +484,7 @@
           <form action="send.php" method="POST" class="footer__form">
             <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
             <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
-            <textarea  class="footer__message" placeholder="Message" name="message"></textarea>
+            <textarea  class=" message footer__message" placeholder="Message" name="message"></textarea>
             <button class="button footer__button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>
@@ -508,13 +508,37 @@
   </footer>
   <!-- /.footer -->
 
+<div class="modal">
+  <div class="modal__overlay">
 
+  </div>
+  <!-- /.modal__overlay -->
+  <div class="modal__dialog">
+    <a href="#" class="modal__close">
+      <img src="assets/img/close.svg" alt="icon: close">
+    </a>
+    <h3 class="modal__title">Send us a message</h3>
 
+          <form action="sendModal.php" method="POST" class="modal__form">
+            <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name">
+            <input type="text" class="input modal__input" placeholder="Phone Number*" name="phone">
+            <input type="text" class="input modal__input" placeholder="Email*" name="email">
+            <textarea  class="message modal__message" placeholder="Message" name="message"></textarea>
+            <button class="button modal__button" type="submit">Send</button>
+            <span class="modal__info">* Required Fields</span>
+          </form>
+    <!-- /.modal__close -->
+  </div>
+  <!-- /.modal_dialog -->
+</div>
+<!-- /.modal -->
 
-
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=36f1ee3f-546b-475c-a451-f4972c17e41e&lang=ru_RU"
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=36f1ee3f-546b-475c-a451-f4972c17e41e&lang=ru_RU"
     type="text/javascript">
   </script>
+  
+  
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/map.js"></script>
