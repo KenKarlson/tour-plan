@@ -19,7 +19,7 @@
     <div class="container">
       <div class="navbar-top">
 
-        <a href="/" class="logo">
+        <a href="/tour-plan/" class="logo">
           <img src="assets/img/logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
 
@@ -31,7 +31,7 @@
         </form>
 
         <a href="#" class="user navbar__user navbar__user--mobile--hidden">
-          <img src="assets/img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
+          <img src="assets/img/user-avatar.webp" alt="Avatar: Nathan" class="user__avatar">
           <span class="user__name">Nathan</span>
         </a>
         <!-- /.user -->
@@ -53,7 +53,7 @@
           <!--user mobile box-->
           <li class="navbar-menu__item navbar-menu__item--mobile--visible">
             <a href="#" class="user navbar__user navbar__user--mobile--visible">
-              <img src="assets/img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
+              <img src="assets/img/user-avatar.webp" alt="Avatar: Nathan" class="user__avatar">
               <span class="user__name user__name--light">Nathan</span>
             </a>
           </li>
@@ -134,19 +134,19 @@
             <!-- Slides -->
 
             <div class="swiper-slide hotel-slider__item">
-              <img src="assets/img/slide0.jpg" alt="Slider" class="hotel-slider__image">
+              <img src="assets/img/slide0.webp" alt="Slider" class="hotel-slider__image">
             </div>
             <div class="swiper-slide hotel-slider__item">
-              <img src="assets/img/slide1.jpg" alt="Slider" class="hotel-slider__image">
+              <img src="assets/img/slide1.webp" alt="Slider" class="hotel-slider__image">
             </div>
             <div class="swiper-slide hotel-slider__item">
-              <img src="assets/img/slide2.jpg" alt="Slider" class="hotel-slider__image">
+              <img src="assets/img/slide2.webp" alt="Slider" class="hotel-slider__image">
             </div>
             <div class="swiper-slide hotel-slider__item">
-              <img src="assets/img/slide3.jpg" alt="Slider" class="hotel-slider__image">
+              <img src="assets/img/slide3.webp" alt="Slider" class="hotel-slider__image">
             </div>
             <div class="swiper-slide hotel-slider__item">
-              <img src="assets/img/slide4.jpg" alt="Slider" class="hotel-slider__image">
+              <img src="assets/img/slide4.webp" alt="Slider" class="hotel-slider__image">
             </div>
 
 
@@ -198,7 +198,8 @@
 
           <div class="map">
 
-            <div id="map" style="width: 347px; height: 213px"></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18911.053757830883!2d120.96859414234807!3d14.520072891495168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cc06a78dd049%3A0x28e8c7008e767a3c!2z0KHQvtC70LXRgCDQoNC10LfQvtGA0YIgJiDQmtCw0LfQuNC90L4g0JzQsNC90LjQu9Cw!5e0!3m2!1sru!2sby!4v1633377600832!5m2!1sru!2sby" width="347" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!--<div id="map" style="width: 347px; height: 213px"></div>-->
           </div>
           <!-- /.map -->
         </div>
@@ -213,9 +214,7 @@
   <section class="packages">
     <div class="container">
       <div class="grid">
-        <div class="grid__element">
-
-        </div>
+        <div class="grid__element"></div>
         <div class="grid__element"></div>
         <div class="grid__element"></div>
         <div class="grid__element"></div>
@@ -234,8 +233,8 @@
         subscribe to our
         <span class="newsletter-title__strong">Newsletter</span>
       </h2>
-      <form action="sendTo.php" class="subscribe newsletter__subscribe" >
-        <input type="text" class="subscribe__input" placeholder="Your email address" name="email">
+      <form action="sendTo.php" class="subscribe newsletter__subscribe form" >
+        <input type="text" class="subscribe__input" placeholder="Your email address" name="email" required>
         <button class="subscribe__button">Send</button>
       </form>
     </div>
@@ -252,7 +251,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="assets/img/laura.jpg" alt="Photo: Laura Fox" class="reviews-slider__avatar">
+                <img src="assets/img/laura.webp" alt="Photo: Laura Fox" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Laura Fox</h3>
                 <span class="reviews-slider__date">Stayed 1 Yanuar, 2020</span>
                 <div class="reviews-slider__rating">
@@ -280,7 +279,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="assets/img/reviews-avatar.jpg" alt="Photo: Megan Fox" class="reviews-slider__avatar">
+                <img src="assets/img/reviews-avatar.webp" alt="Photo: Megan Fox" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Megan Fox</h3>
                 <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
                 <div class="reviews-slider__rating">
@@ -304,7 +303,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="assets/img/esmeralda.jpg" alt="Photo: Esmeralda Brumermblesk" class="reviews-slider__avatar">
+                <img src="assets/img/esmeralda.webp" alt="Photo: Esmeralda Brumermblesk" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Esmeralda Brumermblesk</h3>
                 <span class="reviews-slider__date">Stayed 8 Nov, 2015</span>
                 <div class="reviews-slider__rating">
@@ -328,7 +327,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="assets/img/reviews-avatar-2.jpg" alt="Photo: Hayns Frogx" class="reviews-slider__avatar">
+                <img src="assets/img/reviews-avatar-2.webp" alt="Photo: Hayns Frogx" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Hayns Frogx</h3>
                 <span class="reviews-slider__date">Stayed 10 Nov, 2020</span>
                 <div class="reviews-slider__rating">
@@ -364,24 +363,24 @@
       <h2 class="activities__title">Other Activities</h2>
       <div class="activities-wrapper">
         <div class="card activities__card">
-          <img src="assets/img/activities-1.jpg" alt="The curious corner" class="card__image">
+          <img src="assets/img/activities-1.webp" alt="The curious corner" class="card__image">
           <h3 class="card__title">The curious corner
             of chamarel</h3>
           <button class="card__button">Book Now</button>
         </div>
         <div class="card activities__card">
-          <img src="assets/img/activities-2.jpg" alt="Gymkhana club golf" class="card__image">
+          <img src="assets/img/activities-2.webp" alt="Gymkhana club golf" class="card__image">
           <h3 class="card__title">Gymkhana club golf
             course</h3>
           <button class="card__button">Book Now</button>
         </div>
         <div class="card activities__card">
-          <img src="assets/img/activities-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image">
+          <img src="assets/img/activities-3.webp" alt="Tamarind falls hiking trip - full day" class="card__image">
           <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
           <button class="card__button">Book Now</button>
         </div>
         <div class="card activities__card">
-          <img src="assets/img/activities-4.jpg" alt="The blue marine discovery quest" class="card__image">
+          <img src="assets/img/activities-4.webp" alt="The blue marine discovery quest" class="card__image">
           <h3 class="card__title">The blue marine discovery quest</h3>
           <button class="card__button">Book Now</button>
         </div>
@@ -398,7 +397,8 @@
       <!--grid container-->
       <div class="footer-wrapper">
 
-        <img src="assets/img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo">
+          <a href="/tour-plan/" class="logo footer__logo">
+        <img src="assets/img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo"></a>
         <div class="footer__list footer__categories">
           <h3 class="footer__title">All categories</h3>
           <ul class="footer__ul">
@@ -428,9 +428,12 @@
         <div class="footer__social-network">
           <h3 class="footer__title footer__title--inline">Social Network</h3>
           <div class="footer__social-links">
-            <a href="#" class="footer__link"><img src="assets/img/facebook.svg" alt="icon: facebook"></a>
-            <a href="#" class="footer__link"><img src="assets/img/youtube.svg" alt="icon: youtue"></a>
-            <a href="#" class="footer__link"><img src="assets/img/instagram.svg" alt="icon: instagram"></a>
+            <a href="https://www.facebook.com/" class="footer__link" target="_blank">
+            <img src="assets/img/facebook.svg" alt="icon: facebook"></a>
+            <a href="https://www.youtube.com/" class="footer__link" target="_blank">
+            <img src="assets/img/youtube.svg" alt="icon: youtue"></a>
+            <a href="https://www.instagram.com" class="footer__link" target="_blank">
+              <img src="assets/img/instagram.svg" alt="icon: instagram"></a>
           </div>
           <!-- /.footer__social-links -->
         </div>
@@ -456,24 +459,26 @@
               <div class="footer__icon-wrapper">
                 <img class="footer__icon" src="assets/img/footer/map-marker.svg" alt="icon: map marker">
               </div>
-
               9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
             </li>
             <li class="footer__item footer__item--mb-2">
               <div class="footer__icon-wrapper">
                 <img class="footer__icon" src="assets/img/footer/phone-call.svg" alt="icon: phone call">
               </div>
-
-              Tel (business hours) : 269 1500<br>
-              Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>
-              Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+              <div class="footer__telbox">
+                <div>Tel (business hours) : <a href="tel:269 1500" class="footer__link">269 1500</a></div>
+              <div>Tel (hotline) Monday - Saturday: <a href="tel:52-56-61-38" class="footer__link">52-56-61-38</a> (08:00 am – 20:00 pm)</div>
+              <div>Tel (hotline) Sunday: <a href="tel:52-56-61-38" class="footer__link">52-56-61-38</a> (08:00 am – 14:00 pm)</div>
+              </div>
+              
             </li>
             <li class="footer__item footer__item--mb-2">
               <div class="footer__icon-wrapper">
                 <img class="footer__icon" src="assets/img/footer/email.svg" alt="icon: email">
               </div>
 
-              cherly.lawson@example.com
+              <a href="mailto: cherly.lawson@example.com" class="footer__link">cherly.lawson@example.com</a>
+              
             </li>
           </ul>
         </div>
@@ -481,13 +486,18 @@
         <div class="footer__contact-form">
           <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
 
-          <form action="send.php" method="POST" class="footer__form">
-            <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
-            <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
+          <form action="send.php" method="POST" class="footer__form form">
+            <div class="footer__input footer__input-group">
+              <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name" required >
+            </div>
+            <div class="footer__input footer__input-group">
+              <input type="tel"  class="input footer__input" id="phone"placeholder="Phone Number*" name="phone" required pattern="[0-9]+" > 
+            </div>            
             <textarea  class=" message footer__message" placeholder="Message" name="message"></textarea>
             <button class="button footer__button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>
+          
         </div>
         <!-- /.footer__contact-forn -->
 
@@ -497,7 +507,7 @@
             <li class="footer-menu__item"><a href="#" class="footer-menu__link">Conditions of use</a></li>
             <li class="footer-menu__item"><a href="#" class="footer-menu__link">Cancellation policy</a></li>
           </ul>
-          <img class="footer-stars" src="assets/img/footer/footer-img.svg" alt="icon: all stars"></a></li>
+          <img class="footer-stars" src="assets/img/footer/footer-img.svg" alt="icon: all stars">
 
         </div>
         <!-- /.footer__copyright -->
@@ -519,10 +529,18 @@
     </a>
     <h3 class="modal__title">Send us a message</h3>
 
-          <form action="sendModal.php" method="POST" class="modal__form">
-            <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name">
-            <input type="text" class="input modal__input" placeholder="Phone Number*" name="phone">
-            <input type="text" class="input modal__input" placeholder="Email*" name="email">
+          <form action="sendModal.php" method="POST" class="modal__form form">
+            <input type="text" 
+            class="input modal__input" 
+            placeholder="Your Full Name*" 
+            name="name" required minlength=2>
+            <input type="tel" 
+            class="input modal__input" 
+            id="modalphone" 
+            placeholder="Phone Number*" 
+            name="phone" 
+            required pattern="[0-9]+">
+            <input type="email" class="input modal__input" placeholder="Email*" name="email" required>
             <textarea  class="message modal__message" placeholder="Message" name="message"></textarea>
             <button class="button modal__button" type="submit">Send</button>
             <span class="modal__info">* Required Fields</span>
@@ -533,15 +551,12 @@
 </div>
 <!-- /.modal -->
 
-<script src="assets/js/jquery-3.6.0.min.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?apikey=36f1ee3f-546b-475c-a451-f4972c17e41e&lang=ru_RU"
-    type="text/javascript">
-  </script>
-  
-  
+  <script src="assets/js/jquery-3.6.0.min.js"></script>  
   <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/jquery.maskedinput.min.js"></script>
+
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/map.js"></script>
 </body>
 
 </html>

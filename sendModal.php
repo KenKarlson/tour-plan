@@ -30,16 +30,16 @@ try {
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
-    $mail->Host       = 'mail*******.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'mail@*****.ru'; // Логин на почте
-    $mail->Password   = '**********/ Пароль на почте
+    $mail->Host       = 'mail.hosting.***.ru'; // SMTP сервера вашей почты
+    $mail->Username   = 'm***@***.ru'; // Логин на почте
+    $mail->Password   = '*****'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('mail@****.ru', 'admin:)'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('m***@***.ru', 'admin'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('***@mail.ru');  
-    $mail->addAddress('mail@****.ru'); // Ещё один, если нужен
+    $mail->addAddress('m***@***.ru');  
+    $mail->addAddress('m***@***.ru'); // Ещё один, если нужен
 
 
 // Отправка сообщения

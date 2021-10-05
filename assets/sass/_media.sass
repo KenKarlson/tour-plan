@@ -16,7 +16,8 @@
     height: 230px
   .footer
     &__input
-      flex-basis: 100%
+      &-group
+        flex-basis: 100%
   // 992     
 @media (max-width: 992px)
   .container
@@ -29,6 +30,7 @@
       padding-bottom: 30px
     &__search
       margin-left: auto
+      margin-right: 70px
     &-menu
       padding-top: 22px
       padding-bottom: 22px
@@ -72,7 +74,8 @@
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 40px
     &__input
-      flex-basis: 49%
+      &-group
+        flex-basis: 48%
     &__logo
       grid-row: 1 / 2
       grid-column: span 2
@@ -219,6 +222,11 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%, 0)
+    &__title
+      margin: 0 auto 42px
+      //min-width: 245px
+      font-size: 30px
+      line-height: 38px
   .activities
     padding-top: 40px
     padding-bottom: 60px
@@ -227,7 +235,11 @@
     height: 255px
   .footer
     &__input
-      flex-basis: 100%
+      &-group
+        flex-basis: 100%
+    &-copyright
+      grid-column: 1 / 6
+      margin-left: 0
   .search
     &__input
       width: 245px
@@ -247,6 +259,10 @@
       padding-right: 34px
     &__title
       margin-bottom: 37px
+  .reviews
+    &__title
+      font-size: 18px
+      line-height: 24px
   .subscribe
     width: 100%
   .card
@@ -281,7 +297,17 @@
       grid-row: 8
       grid-column: 1
     &__input
-
+      &-group
+        flex-basis: 100%
+  .modal
+    &__dialog
+      width: 85%
+      padding: 15px 15px
+  .activities
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
   //480
 @media (max-width: 480px)
   .breadcrumb
@@ -306,6 +332,11 @@
     &__button
       grid-row: 6
       max-width: 160px
+    &__input
+      &-group
+        grid-column: span 5
+    &__message
+      grid-column: span 5
     &-copyright
       grid-row: 8
       grid-column: 1
@@ -319,7 +350,7 @@
       &__item
   .modal
     &__dialog
-      max-width: 441px
+      width: 80%
       padding: 15px 10px
 
 @media (max-width: 320px)

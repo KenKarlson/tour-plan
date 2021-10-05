@@ -9,17 +9,28 @@ img
   //max-width: 100% //Картинки не вываливаются за границы родительского блока
 
 input
-  active
-  outline: none
   background-color: #fff
   border-radius: 4px
   border: none
   padding: 0 23px
   height: 50px
+  &:active
+    outline: none !important
+  &:focus
+    outline: none
+button
+  &:active
+    outline: none !important
+  &:focus
+    outline: none
+
+button::-moz-focus-inner
+  border: 0 !important
+  opacity: 0.9
 .button
+  width: 160px
+  height: 50px
   cursor: pointer
-  min-width: 160px
-  min-height: 50px
   padding: 18px
   font-style: normal
   font-weight: 700
@@ -29,6 +40,7 @@ input
   border-radius: 4px
   background-color: $button-color
   color: $light
+
 textarea
   resize: none
   active
@@ -43,3 +55,5 @@ textarea
   border-radius: 4px
   border: none
   padding: 18px 23 px
+.invalid
+  color: red

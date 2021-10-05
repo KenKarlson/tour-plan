@@ -62,6 +62,7 @@
     color: $footer-text-color
     &--mb-2
       margin-bottom: 20px
+      //flex-direction: column
   &__icon
     &-wrapper
       min-width: 40px
@@ -72,8 +73,10 @@
     text-decoration: none
     color: inherit
   &__input
-    flex-basis: 48%
-    margin-bottom: 15px
+    width: 100%
+    &-group
+      flex-basis: 48%
+      margin-bottom: 15px
   &__message
     flex-basis: 100%
     margin-bottom: 23px
@@ -84,12 +87,14 @@
     font-size: 12px
     line-height: 15px
     color: $footer-infotext-color
+  &__mailto
   &-copyright
     grid-row: 6
     grid-column: 2 / 5
     display: flex
     justify-content: space-between
     margin: 0
+    margin-left: 20%
     padding: 0
     &--co
       align-items: center
@@ -109,3 +114,6 @@
       margin-right: 6px
       text-decoration: none
       color: inherit
+  &__telbox
+    display: flex
+    flex-direction: column
