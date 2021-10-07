@@ -1,4 +1,3 @@
-// 1200
 @media (max-width: 1200px)
   .container
     max-width: 960px
@@ -18,7 +17,7 @@
     &__input
       &-group
         flex-basis: 100%
-  // 992     
+  // 992    9 
 @media (max-width: 992px)
   .container
     max-width: 700px
@@ -37,6 +36,10 @@
       &__link
         font-size: 12px
         line-height: 15px
+        &:focus
+          color: white
+        &:hover
+          color: white
   .search
     &__input
       width: 340px
@@ -53,6 +56,7 @@
     width: 340px
   .map
     width: 340px
+    height: 218px
   .newsletter
     &-wrapper
       max-width: 700px
@@ -79,7 +83,6 @@
     &__logo
       grid-row: 1 / 2
       grid-column: span 2
-
     &__social
       &-network
         align-self: center
@@ -101,7 +104,15 @@
         grid-row: 4
     &-copyright
       grid-column: 1 / 7
-    //768
+    a
+      &:focus
+        color: $footer-text-color
+      &:hover
+        color: $footer-text-color
+  .map
+    width: 340px
+    height: 210px
+
 @media (max-width: 768px)
   body
     padding-top: 78px
@@ -122,6 +133,10 @@
           display: none
         &--visible
           display: flex
+
+    &__search
+      margin-left: 0
+      margin-right: 0
     &__user
       flex-direction: column
       justify-content: center
@@ -243,7 +258,6 @@
   .search
     &__input
       width: 245px
-    ///import css-variables from max-width 576
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -308,7 +322,7 @@
       font-size: 18px
       line-height: 23px
       margin-bottom: 36px
-  //480
+
 @media (max-width: 480px)
   .breadcrumb
     display: flex
@@ -352,15 +366,23 @@
     &__dialog
       width: 80%
       padding: 15px 10px
-
+  .navbar
+    &__search
+      margin-left: 0
+      margin-right: 0
+  .booking
+    &__button
+      padding: 13px 5px
 @media (max-width: 320px)
-
   .navbar
     &-top
       padding-top: 22px
       padding-bottom: 22px
     &-bottom
       top: 66px
+  .search
+    &__input
+      max-width: 215px
   .breadcrumb
     padding: 18px 0
     &__item

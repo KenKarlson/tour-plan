@@ -85,7 +85,6 @@ $(function () {
       },
     });
   });
-  //console.log($('.modal__form'));
 
   $(".subscribe").validate({
     errorClass: "error",
@@ -100,5 +99,14 @@ $(function () {
   $("#phone").mask("+7(999) 999-99-99");
   $("#modalphone").mask("+7(999) 99-99-999");
 
-  AOS.init();
+  AOS.init({
+    disable: function () {
+      var maxWidth = 800;
+      return window.innerWidth < maxWidth;
+    }
+  });
+  //AOS.init();
+  // AOS.init({
+  //   disable: 'mobile'
+  // });
 });
